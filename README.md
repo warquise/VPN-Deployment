@@ -30,7 +30,8 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 4. Select an instance type. `t2.micro` is sufficient for this tutorial and is free-tier eligible.
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/7c725d31-6ddc-44c9-83eb-88274ef5583b)
 
-5. Review and launch the instance. 
+5. Review and launch the instance.
+
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/155d9856-5306-4857-b708-b94a9deabcbf)
 
 ## Creating Username and Password for VPN SERVER
