@@ -24,6 +24,7 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 1. Log in to the AWS Management Console.
 2. Navigate to the EC2 Dashboard and click on `Launch Instance`.
 3. Choose an Amazon Machine Image (AMI). For this tutorial, we will use Amazon Linux 2 AMI (HVM), SSD Volume Type.
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/5b3cf88c-59dd-4f4e-9e70-03ce7f7e0c5f)
 
 ![Launch Instance](images/launch-instance.png)
 
@@ -52,11 +53,7 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
    ssh -i /path/to/your-key-pair.pem ec2-user@<your-ec2-instance-public-dns>
 This project automates the deployment of a VPN server on AWS using OpenVpn Technology
 
-First i chose to deploy my server on Us-East-1 Since my North Carolina A & T is located on the East Coast in North Carolina 
-![image](https://github.com/warquise/VPN-Deployment/assets/160808546/31cda74f-d868-43ad-8373-516989879f4a)
 
-navigated the Virtual private Cloud and Went in the ECS (The virtual machine)
-![image](https://github.com/warquise/VPN-Deployment/assets/160808546/5334cb73-a8c8-4ed5-a0de-dfe824caa319)
 
 
 
