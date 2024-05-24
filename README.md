@@ -30,24 +30,14 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 4. Select an instance type. `t2.micro` is sufficient for this tutorial and is free-tier eligible.
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/7c725d31-6ddc-44c9-83eb-88274ef5583b)
 
-5. Configure instance details and keep the defaults.
+5. Review and launch the instance. 
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/155d9856-5306-4857-b708-b94a9deabcbf)
 
-![Configure Instance Details](images/configure-instance-details.png)
+## Creating Username and Password for VPN SERVER
 
-6. Add storage and keep the defaults.
+1. Type `yes` for the agreement then continue to press `enter` key for all the default settings til you get to the username and password code
+  ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/54bb1074-d9ca-41ec-879a-77cc00939647)
 
-![Add Storage](images/add-storage.png)
-
-7. Configure the security group to allow SSH (TCP 22), HTTPS (TCP 443), and OpenVPN Admin UI (TCP 943).
-
-![Configure Security Group](images/configure-security-group.png)
-
-8. Review and launch the instance. Select an existing key pair or create a new one.
-
-## Installing OpenVPN
-
-1. Connect to your instance using SSH:
-   ```sh
    ssh -i /path/to/your-key-pair.pem ec2-user@<your-ec2-instance-public-dns>
 This project automates the deployment of a VPN server on AWS using OpenVpn Technology
 
