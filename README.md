@@ -9,6 +9,8 @@ First i chose to deploy my server on Us-East-1 Since my North Carolina A & T is 
 navigated the Virtual private Cloud and Went in the ECS (The virtual machine)
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/5334cb73-a8c8-4ed5-a0de-dfe824caa319)
 
+
+
 ## Prerequisites
 
 - AWS Account
