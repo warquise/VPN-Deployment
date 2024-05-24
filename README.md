@@ -1,7 +1,9 @@
 
 # VPN Deployment Project on AWS
 
-This project automates the deployment of a VPN server on AWS using various shell scripts and configuration files.
+This project automates the deployment of a VPN server on AWS using OpenVpn Technology
+
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/5334cb73-a8c8-4ed5-a0de-dfe824caa319)
 
 ## Prerequisites
 
