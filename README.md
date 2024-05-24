@@ -36,8 +36,12 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 
 ## Creating Username and Password for VPN SERVER
 
-1. Type `yes` for the agreement then continue to press `enter` key for all the default settings til you get to the username and password code
+1. Type `yes` for the agreement. Then continue to press `enter` key for all the default settings til you get to the username and password code.
   ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/54bb1074-d9ca-41ec-879a-77cc00939647)
+
+2. Once I saw my the default username "openvpn", I created my password and then skipped the activation key and pressed `enter`
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/b0f9c4da-4d6a-40a0-b799-0318225fab47)
+
 
    ssh -i /path/to/your-key-pair.pem ec2-user@<your-ec2-instance-public-dns>
 This project automates the deployment of a VPN server on AWS using OpenVpn Technology
