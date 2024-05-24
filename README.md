@@ -24,15 +24,11 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 1. Log in to the AWS Management Console.
 2. Navigate to the EC2 Dashboard and click on `Launch Instance`.
  ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/5b3cf88c-59dd-4f4e-9e70-03ce7f7e0c5f)
-3. Choose an Amazon Machine Image (AMI). For this tutorial, we will use Amazon Linux 2 AMI (HVM), SSD Volume Type.
-![image](https://github.com/warquise/VPN-Deployment/assets/160808546/5b3cf88c-59dd-4f4e-9e70-03ce7f7e0c5f)
-
-![Launch Instance](images/launch-instance.png)
+3. Choose an Amazon Machine IMAGE(AMI) and search for OPENVPN and select the OPENVPN ACCESS Server. 
+   ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/a9448878-a133-49c1-9ab4-49458e767034)
 
 4. Select an instance type. `t2.micro` is sufficient for this tutorial and is free-tier eligible.
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/7c725d31-6ddc-44c9-83eb-88274ef5583b)
-
-![Select Instance Type](images/select-instance-type.png)
 
 5. Configure instance details and keep the defaults.
 
