@@ -48,7 +48,10 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 1. Copy the admin url to log in to the OpenVpn admin panel
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/3e033204-8015-45dc-a9d4-58f76657e4cc)
 
-2. Once pasted and
+2. Once I pasted the url in google browser i typed my username and password in.
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/14ca6e1f-c275-4fe3-bb99-3e9e0ab1e001)
+
+   
 - Modify `config/aws-config.json` for your AWS settings.
 - Adjust `config/vpn-setup.conf` for your VPN server settings.
 
