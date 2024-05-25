@@ -58,12 +58,15 @@ This guide provides step-by-step instructions on how i deployed A VPN using Open
 ## Use The VPN on your devices
 
 1.Download the VPN connect app 
+
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/c97116ab-a2d5-419b-8714-779e414bf37d)
 
 2. Once prompted to the openvpn app use the client url
+
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/1168e0e6-5ce8-4e8e-8f6d-16e0a777c34c)
 
 3. After I logged in connected to the VPN
+
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/b562da0a-b6b4-40f0-9808-77feda9deeb7)
 
 4. Congrats your VPN is now connected!!!
