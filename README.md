@@ -10,7 +10,7 @@ This guide provides step-by-step instructions on how i deployed A VPN using Open
 2. [Launching an EC2 Instance](#launching-an-ec2-instance)
 3. [Creating Username and Password for VPN SERVER](#creating-username-and-password-for-vpn-server)  
 4. [ Configure VPN Settings in Admin Panel](#configure-vpn-settings-in-admin-panel)
-5. [Configuring OpenVPN](#configuring-openvpn)
+5. [Use The VPN on your devices](#use-the-vpn-on-your-devices)
 6. [Connecting to Your VPN](#connecting-to-your-vpn)
 
 ## Prerequisites
@@ -51,16 +51,22 @@ This guide provides step-by-step instructions on how i deployed A VPN using Open
 2. Once I pasted the url in google browser i typed my username and password in.
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/14ca6e1f-c275-4fe3-bb99-3e9e0ab1e001)
 
-   
-- Modify `config/aws-config.json` for your AWS settings.
-- Adjust `config/vpn-setup.conf` for your VPN server settings.
-
-## Usage
-
-- Access the OpenVPN Admin UI at: `https://<INSTANCE_IP>:943/admin`
-- Access the OpenVPN Client UI at: `https://<INSTANCE_IP>:943/`
-- Login using the 'openvpn' account with the password set during the setup.
+3. Go to VPN settings and enable the toggle to yes of the highighted sentence 
+   ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/c219ff64-8ed0-42b0-bf54-075540ee6109)
 
 
+## Use The VPN on your devices
 
+1.Download the VPN connect app 
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/c97116ab-a2d5-419b-8714-779e414bf37d)
+
+2. Once prompted to the openvpn app use the client url
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/1168e0e6-5ce8-4e8e-8f6d-16e0a777c34c)
+
+3. After I logged in connected to the VPN
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/b562da0a-b6b4-40f0-9808-77feda9deeb7)
+
+4. Congrats your VPN is now connected!!!
+
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/415cf2fd-c549-4f2a-8d09-017a57babbdd)
 
