@@ -1,8 +1,8 @@
 
 # VPN Deployment Project on AWS
-# AWS OpenVPN Deployment Guide
 
-This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon Web Services (AWS) using an EC2 instance.
+
+This guide provides step-by-step instructions on how i deployed A VPN using OpenVPN on Amazon Web Services (AWS) 
 
 ## Table of Contents
 
