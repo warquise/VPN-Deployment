@@ -43,36 +43,12 @@ This guide provides step-by-step instructions on how to deploy OpenVPN on Amazon
 ![image](https://github.com/warquise/VPN-Deployment/assets/160808546/b0f9c4da-4d6a-40a0-b799-0318225fab47)
 
 
-   ssh -i /path/to/your-key-pair.pem ec2-user@<your-ec2-instance-public-dns>
-This project automates the deployment of a VPN server on AWS using OpenVpn Technology
+## Configure VPN Settings in Admin Panel
 
+1. Copy the admin url to log in to the OpenVpn admin panel
+![image](https://github.com/warquise/VPN-Deployment/assets/160808546/3e033204-8015-45dc-a9d4-58f76657e4cc)
 
-
-
-
-## Prerequisites
-
-- AWS Account
-- AWS CLI configured
-- SSH key pair for EC2 instance
-
-## Deployment Instructions
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/openvpn/vpn-deployment-project.git
-    cd vpn-deployment-project
-    ```
-
-2. Configure AWS CLI with your credentials and region.
-
-3. Run the deployment script:
-    ```sh
-    ./scripts/deploy-vpn.sh
-    ```
-
-## Configuration
-
+2. Once pasted and
 - Modify `config/aws-config.json` for your AWS settings.
 - Adjust `config/vpn-setup.conf` for your VPN server settings.
 
