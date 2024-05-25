@@ -11,7 +11,7 @@ This guide provides step-by-step instructions on how i deployed A VPN using Open
 3. [Creating Username and Password for VPN SERVER](#creating-username-and-password-for-vpn-server)  
 4. [ Configure VPN Settings in Admin Panel](#configure-vpn-settings-in-admin-panel)
 5. [Use The VPN on your devices](#use-the-vpn-on-your-devices)
-6. [Connecting to Your VPN](#connecting-to-your-vpn)
+ 
 
 ## Prerequisites
 
