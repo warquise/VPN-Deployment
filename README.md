@@ -8,8 +8,8 @@ This guide provides step-by-step instructions on how i deployed A VPN using Open
 
 1. [Prerequisites](#prerequisites)
 2. [Launching an EC2 Instance](#launching-an-ec2-instance)
-3. [Installing OpenVPN](#installing-openvpn)
-4. [Accessing the OpenVPN Admin UI](#accessing-the-openvpn-admin-ui)
+3. [Creating Username and Password for VPN SERVER](#creating-username-and-password-for-vpn-server)  
+4. [ Configure VPN Settings in Admin Panel](#configure-vpn-settings-in-admin-panel)
 5. [Configuring OpenVPN](#configuring-openvpn)
 6. [Connecting to Your VPN](#connecting-to-your-vpn)
 
